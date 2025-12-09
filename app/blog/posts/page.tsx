@@ -14,7 +14,7 @@ export default async function Posts() {
         Posts
       </h1>
       <ul className="font-(family-name:--font-geist-sans) max-w-2xl space-y-4">
-        {posts.map((post) => (
+        {posts.map((post: any) => (
           <li
             key={post.id}
             className="block border rounded-xl border-[#242427] py-5 px-10"
